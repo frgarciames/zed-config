@@ -1,31 +1,32 @@
 [
-    {
-        "context": "Terminal",
-        "bindings": {
-            "ctrl-shift-right": "pane::ActivateNextItem",
-            "ctrl-shift-r": "pane::ActivateNextItem",
-            "ctrl-shift-left": "pane::ActivatePrevItem",
-            "ctrl-shift-l": "pane::ActivatePrevItem"
-        }
-    },
-    {
-        "context": "Editor",
-        "bindings": {
-            "ctrl-shift-right": "pane::ActivateNextItem",
-            "ctrl-shift-r": "pane::ActivateNextItem",
-            "ctrl-shift-left": "pane::ActivatePrevItem",
-            "ctrl-shift-l": "pane::ActivatePrevItem",
-            "shift-space": "dock::FocusDock",
-            "ctrl-shift-k": "editor::MoveLineUp",
-            "ctrl-shift-j": "editor::MoveLineDown",
-            "ctrl-tab": "pane::ActivateNextItem"
-        }
-    },
-    {
-        "context": "Terminal",
-        "bindings": {
-            "shift-space": "dock::HideDock",
-            "cmd-t": "workspace::NewTerminal"
-        }
+  {
+    "context": "Terminal",
+    "bindings": {
+      "ctrl-shift-right": "pane::ActivateNextItem",
+      "ctrl-shift-r": "pane::ActivateNextItem",
+      "ctrl-shift-left": "pane::ActivatePrevItem",
+      "ctrl-shift-l": "pane::ActivatePrevItem",
+      "shift-space": "dock::HideDock",
+      "cmd-t": "workspace::NewTerminal"
     }
+  },
+  {
+    "context": "Pane",
+    "bindings": {
+      "shift-space": "dock::FocusDock"
+    }
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "ctrl-shift-right": "pane::ActivateNextItem",
+      "ctrl-shift-r": "pane::ActivateNextItem",
+      "ctrl-shift-left": "pane::ActivatePrevItem",
+      "ctrl-shift-l": "pane::ActivatePrevItem",
+      "shift-space": "dock::FocusDock",
+      "ctrl-shift-k": "editor::MoveLineUp",
+      "ctrl-shift-j": "editor::MoveLineDown",
+      "ctrl-tab": "pane::ActivateNextItem"
+    }
+  }
 ]

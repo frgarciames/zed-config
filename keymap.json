@@ -6,7 +6,9 @@
       "ctrl-shift-r": "pane::ActivateNextItem",
       "ctrl-shift-left": "pane::ActivatePrevItem",
       "ctrl-shift-l": "pane::ActivatePrevItem",
-      "shift-space": "dock::HideDock",
+      "ctrl-shift-space": "dock::HideDock",
+      "ctrl-shift-e": "dock::AnchorDockBottom",
+      "ctrl-e": "dock::ExpandDock",
       "cmd-t": "workspace::NewTerminal"
     }
   },
@@ -19,11 +21,13 @@
   {
     "context": "Editor",
     "bindings": {
-      "ctrl-shift-right": "pane::ActivateNextItem",
+      "cmd-r": "editor::ToggleComments",
+      "ctrl-e": "dock::ExpandDock",
       "ctrl-shift-r": "pane::ActivateNextItem",
+      "ctrl-shift-right": "pane::ActivateNextItem",
       "ctrl-shift-left": "pane::ActivatePrevItem",
       "ctrl-shift-l": "pane::ActivatePrevItem",
-      "shift-space": "dock::FocusDock",
+      "ctrl-shift-space": "dock::FocusDock",
       "ctrl-shift-k": "editor::MoveLineUp",
       "ctrl-shift-j": "editor::MoveLineDown",
       "ctrl-tab": "pane::ActivateNextItem"
